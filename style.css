@@ -1,0 +1,48 @@
+:root {
+    --font: 'Roboto';
+    --primary-background-color: #1F2937;
+    
+    --main-text-size: 48px;
+    --main-text-color: #F9FAF8;
+    --main-text-wieght: 900;
+    --secondary-text-size: 18px;
+    --secondary-text-color: #E5E7EB;
+    --header-text-size: 24px;
+    --header-text-color: #F9FAF8;
+
+    --button-color: #3882f6;
+    --information-header-text-size: 36px;
+    --information-header-text-color: #1F2937;
+    --information-header-text-weight: 900;
+
+    --quote-section-background-color: #3882F6;
+    --quote-text-size: 36px;
+    --quote-text-style: light italic;
+    --quote-text-color: #1F2937;
+
+}
+
+
+body {
+  /* font-family: var(--font); */
+  border: 50px;
+}
+
+.header {
+    background-color: var(--primary-background-color);
+    color: var(--main-text-color);
+    display: flex;
+    align-items: center;
+    
+}
+
+.header-text {
+  margin-left: auto; 
+  display: flex;
+  gap: 10px;
+
+}
+
+#header-logo {
+  font-weight: bold;
+}
