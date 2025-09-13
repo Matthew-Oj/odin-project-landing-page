@@ -1,77 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Landing Page</title>
-    <link rel="stylesheet" href="style.css">
-    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
-</head>
-<body>
-    <header class="header">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>OdinProject Landing Page</title>
+
+        <!-- Import Google Fonts: Roboto -->
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
         <!-- Header -->
-        <p id="header-logo">Header Logo</p>
-        <div class = "header-text">
-            <p>header link one</p>     
-            <p>header link two</p>     
-            <p>header link three</p>
-        </div>     
-    </header>
+        <header class="header">
+            <div class="logo"> Header  Logo</div>
+            <nav>
+                <ul class="nav-ul">
+                <li><a class="header-link" href="#">header link one</a></li>
+                <li><a class="header-link" href="#">header link two</a></li>
+                <li><a class="header-link" href="#">header link three</a></li>
+                </ul>
+        </nav>
+        </header>
 
-    <div>
-        <!-- Section 1  -->
-        <h1>This website is awesome</h1>
-        <p>This website has some subtext that goes here under the main title. It's a smmaller font and the color is lower contrast</p>
-        <button> Sign Up</button>
-        <img src="" alt="This is a placeholder for an image">
-    </div>
-    
-
-    <div>
-        <!-- Section 2 -->
-        <h1>Some random information.</h1>
         
-        <div>
-        <img src="" alt="">
-        <p>this is some subtext under an illustration or image</p>
-        </div>
+        <main>
+            <!-- Section 1  -->
+            <section class="hero">
+                <div>
+                    <h1 class="hero-text-title">This website is awesome</h1>
+                    <p class="hero-text-subtitle">This website has some subtext that goes here 
+                        under the main title. It's a smaller font and 
+                        the color is lower contrast
+                    </p>
+                    <button class="hero-button">
+                        Sign up
+                    </button>
 
-        <div>
-        <img src="" alt="">
-        <p>this is some subtext under an illustration or image</p>
-        </div>
+                </div>
 
-        <div>
-        <img src="" alt="">
-        <p>this is some subtext under an illustration or image</p>
-        </div>
+                <div class="hero-image">
+                    <p>this is a placeholder for an image</p>
+                </div>
 
-        <div>
-        <img src="" alt="">
-        <p>this is some subtext under an illustration or image</p>
-        </div>
+            </section>
+            
+            <!-- Section 2  -->
+            <section class="info">
+                <h1 class="info-title">Some random information.</h1>
+                <div class="info-container">
+                    <div class="info-item">
+                        <div class=info-image>
+                        </div>
+                        <p class="info-text">
+                            this is some subtext under an illustration 
+                            or image 
+                        </p>
+                    </div>
+                    <div class="info-item">
+                        <div class=info-image>
+                        </div>
+                        <p class="info-text">
+                            this is some subtext under an illustration 
+                            or image 
+                        </p>
+                    </div>
+                    <div class="info-item">
+                        <div class=info-image>
+                        </div>
+                        <p class="info-text">
+                            this is some subtext under an illustration 
+                            or image 
+                        </p>
+                    </div>
+                    <div class="info-item">
+                        <div class=info-image>
+                        </div>
+                        <p class="info-text">
+                            this is some subtext under an illustration 
+                            or image 
+                        </p>
+                    </div>
+                </div>
+            </section>
 
-    </div>
-
-    <div>
-        <!-- Section 3 -->
-         <h2>This is an inspiring quote, or testiminal from a customer, Maybe it's just filling up space, or maybe people will actuallyb read it. Who knows? All I know is it looks nice.</h2>
-         <p>- Thor, God of Thunder</p>
-
-    </div>
-
-    <div>
-        <!-- Section 4 -->
-        <h3>Call to action! It's time!</h3>
-        <p>Sign up for our product by clicking that button right over there!</p>
-        <button>Sign up</button>
-    </div>
-
-    <footer>
-        <!-- Footer -->
-         Copyrights © The Odin Project 2021
-    </footer>
-    
-    
-</body>
+            <!-- Section 3  -->
+            <section class="quote">
+                <p class="quote-text">
+                    This is an inspiring quote, or a testimonial from a
+                    customer. Maybe it's just filling up space, or maybe
+                    people will actually read it. Who knows? All I knows?is that it looks nice. 
+                </p>
+                
+                <div class="author-container">
+                    <p class="quote-author">
+                        -Thor, God of Thunder
+                    </p>
+                </div>
+            </section>
+            
+            <!-- Section 4  -->
+            <section class="cta">
+                <div class="cta-content">
+                    <div class="cta-content-left">
+                        <h3 class="cta-text">
+                            Call to action! It's time!
+                        </h3>
+                        <p class="cta-subtext">
+                            Sign up for our product by clickiung that button 
+                            right over there!
+                        </p>
+                    </div>
+                    <div class="cta-content-right">
+                        <button class="cta-button">Sign up</button>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>Copyright © The Odin Project 2021</p>
+        </footer>
+    </body>
 </html>

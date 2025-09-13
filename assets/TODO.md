@@ -1,1 +1,0 @@
-# Images, fonts, or other resources
